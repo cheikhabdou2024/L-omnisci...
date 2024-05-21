@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="w-full  bg-[#1e1e1e]">
+        <div className="w-full  bg-[#1f1f1f]">
              {children}
         </div>
       </body>

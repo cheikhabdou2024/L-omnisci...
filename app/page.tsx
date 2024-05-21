@@ -54,10 +54,10 @@ export default function Home() {
                         type="text"
                         value={userPrompt}
                         onChange={e => setUserPrompt(e.target.value)}
-                        className="w-full p-2 border rounded bg-[#1f1f1f] outline-none"
-                        placeholder="Posez Vos Questions ici...."
+                        className='w-full p-2 border rounded bg-[white] outline-none'
+                        placeholder="Posez Vos Questions ici puis Tapez sur Entrée"
                         disabled={typing}
-                    />
+                    /> 
                 </form>
             </div>
         </div>
